@@ -1,0 +1,46 @@
+{   
+   "name": "copperdragonhoard",   
+   "title": "Copper Dragon's Hoard",   
+   "description": "Personal compendium-sharing module.",   
+   "author": "me",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.5",
+   "compatibleCoreVersion": "3.0.0",
+   "packs": [
+    {
+      "name": "scenes",
+      "label": "Copper Dragon's Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "module": "copperdragonhoard"
+    },
+    {
+      "name": "actors",
+      "label": "Copper Dragon's Actors",
+      "path": "packs/actors.db",
+      "entity": "Actor",
+      "module": "copperdragonhoard"
+    },
+    {
+      "name": "items",
+      "label": "Copper Dragon's Items",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "copperdragonhoard"
+    },
+    {
+      "name": "spells",
+      "label": "Copper Dragon's Spells",
+      "path": "packs/spells.db",
+      "entity": "Item",
+      "module": "copperdragonhoard"
+    },
+    {
+      "name": "rolltables",
+      "label": "Copper Dragon's Tables",
+      "path": "packs/rolltables.db",
+      "entity": "RollTable",
+      "module": "copperdragonhoard"
+    }
+  ]
+ }
