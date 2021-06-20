@@ -9,7 +9,7 @@
    "url": "https://github.com/copperdragongames/copperdragonhoard",
    "manifest": "https://raw.githubusercontent.com/copperdragongames/copperdragonhoard/main/module.json",
    "download": "https://github.com/copperdragongames/copperdragonhoard/archive/refs/heads/main.zip"
-   "packs" [
+   "packs" :[
     {
       "name": "actors",
       "label": "Copper Dragon's Actors",
