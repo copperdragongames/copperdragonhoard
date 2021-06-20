@@ -13,21 +13,21 @@
     {
       "name": "actors",
       "label": "Copper Dragon's Actors",
-      "path": "packs/actors.db",
+      "path": "actors.db",
       "entity": "Actor",
       "module": "copperdragonhoard"
     },
     {
       "name": "items",
       "label": "Copper Dragon's Items",
-      "path": "packs/items.db",
+      "path": "items.db",
       "entity": "Item",
       "module": "copperdragonhoard"
     },
     {
       "name": "spells",
       "label": "Copper Dragon's Spells",
-      "path": "packs/spells.db",
+      "path": "spells.db",
       "entity": "Item",
       "module": "copperdragonhoard"
     }
