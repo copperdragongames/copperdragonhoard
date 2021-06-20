@@ -1,19 +1,15 @@
 {   
    "name": "copperdragonhoard",   
    "title": "Copper Dragon's Hoard",   
-   "description": "Personal compendium-sharing module.",   
-   "author": "me",
+   "description": "A growing collection of D&D 5E homebrew content from Copper Dragon Games.",   
+   "author": "Josh Cornwell",
    "version": "1.0.0",
-   "minimumCoreVersion": "0.5.5",
-   "compatibleCoreVersion": "3.0.0",
+   "minimumCoreVersion": "0.8.5",
+   "compatibleCoreVersion": "0.8.5",
+   "url": "https://github.com/copperdragongames/copperdragonhoard",
+   "manifest": "https://raw.githubusercontent.com/copperdragongames/copperdragonhoard/main/module.json",
+   "download": "FILL IN LATER"
    "packs": [
-    {
-      "name": "scenes",
-      "label": "Copper Dragon's Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "module": "copperdragonhoard"
-    },
     {
       "name": "actors",
       "label": "Copper Dragon's Actors",
@@ -33,13 +29,6 @@
       "label": "Copper Dragon's Spells",
       "path": "packs/spells.db",
       "entity": "Item",
-      "module": "copperdragonhoard"
-    },
-    {
-      "name": "rolltables",
-      "label": "Copper Dragon's Tables",
-      "path": "packs/rolltables.db",
-      "entity": "RollTable",
       "module": "copperdragonhoard"
     }
   ]
