@@ -3,7 +3,7 @@
    "title": "Copper Dragon's Hoard",   
    "description": "A growing collection of D&D 5E homebrew content from Copper Dragon Games.",   
    "author": "Josh Cornwell",
-   "version": "1.0.0",
+   "version": "0.1.0",
    "minimumCoreVersion": "0.8.5",
    "compatibleCoreVersion": "0.8.5",
    "url": "https://github.com/copperdragongames/copperdragonhoard",
