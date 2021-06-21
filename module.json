@@ -11,23 +11,9 @@
    "download": "https://github.com/copperdragongames/copperdragonhoard/archive/refs/heads/main.zip",
    "packs": [
     {
-      "name": "actors",
-      "label": "Copper Dragon's Actors",
-      "path": "packs/actors.db",
-      "entity": "Actor",
-      "module": "copperdragonhoard"
-    },
-    {
       "name": "items",
       "label": "Copper Dragon's Items",
       "path": "packs/items.db",
-      "entity": "Item",
-      "module": "copperdragonhoard"
-    },
-    {
-      "name": "spells",
-      "label": "Copper Dragon's Spells",
-      "path": "packs/spells.db",
       "entity": "Item",
       "module": "copperdragonhoard"
     }
