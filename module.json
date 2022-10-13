@@ -1,21 +1,41 @@
-{   
-   "name": "copperdragonhoard",   
-   "title": "Copper Dragon's Hoard",   
-   "description": "A growing collection of D&D 5E homebrew content from Copper Dragon Games.",   
-   "author": "Josh Cornwell",
-   "version": "0.1.4",
-   "minimumCoreVersion": "0.7.9",
-   "compatibleCoreVersion": "0.8.8",
-   "url": "https://github.com/copperdragongames/copperdragonhoard",
-   "manifest": "https://raw.githubusercontent.com/copperdragongames/copperdragonhoard/main/module.json",
-   "download": "https://github.com/copperdragongames/copperdragonhoard/archive/refs/heads/main.zip",
-   "packs": [
+{
+  "id": "cdg-hoard",
+  "title": "Copper Dragon's Hoard",
+  "description": "This is the description.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "authors": [
+    {
+      "name": "Josh Cornwell, Copper Dragon Games"
+    }
+  ],
+  "packs": [
     {
       "name": "items",
-      "label": "Copper Dragon's Items",
-      "path": "packs/items.db",
+      "label": "Copper Dragon's Hoard",
+      "path": "/packs/items.db",
       "entity": "Item",
-      "module": "copperdragonhoard"
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "maps",
+      "label": "Copper Dragon's Hoard",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
     }
-  ]
- }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
