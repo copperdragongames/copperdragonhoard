@@ -34,8 +34,8 @@
     "./scripts/init.js"
   ],
 
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/copperdragongames/copperdragonhoard",
+  "manifest": "https://github.com/copperdragongames/copperdragonhoard.git",
+  "download": "https://github.com/copperdragongames/copperdragonhoard/archive/refs/heads/main.zip",
   "manifestPlusVersion": "1.2.0"
 }
