@@ -35,7 +35,7 @@
   ],
 
   "url": "https://github.com/copperdragongames/copperdragonhoard",
-  "manifest": "https://github.com/copperdragongames/copperdragonhoard.git",
+  "manifest": "https://raw.githubusercontent.com/copperdragongames/copperdragonhoard/main/module.json",
   "download": "https://github.com/copperdragongames/copperdragonhoard/archive/refs/heads/main.zip",
   "manifestPlusVersion": "1.2.0"
 }
